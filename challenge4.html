@@ -1,0 +1,145 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <title>my challenge4</title>
+        <style>
+            body{
+                background-color:hsl(217, 54%, 11%) ; 
+                padding: 0;
+                
+                
+            }
+            .container{
+                border-style: none;
+                display: flex;
+                
+                flex-direction: column;
+                width: 400px;
+                margin: auto;
+                border-radius: 20px;
+                background-color: hsl(216, 50%, 16%);
+                margin-top: 50px;
+
+            }
+            .product-image{
+                width: 350px;
+                margin-left: 25px;
+                
+                padding-top: 30px;
+                text-align: center;
+                border-radius: 10px;
+                margin-bottom: 5px;
+               
+            }
+            .name{
+                font-family: Outfit, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: hsl(0, 0%, 100%);
+                font-size:24px ;
+                margin-left: 25px;
+                margin-top: 20px;
+                font-weight: 600;
+                margin-bottom: 1opx;
+            }
+            p{
+                font-size: 20px;
+                color: hsl(215, 55%, 78%);
+                font-family:calibri ;
+                margin-left: 20px;
+                width: 300px;
+                font-weight: 300;
+            }
+            .price{
+                color:hsl(178, 100%, 50%);
+                font-family:outfit, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                vertical-align: top;
+            }
+            .time{
+                color:hsl(215, 55%, 78%);
+                font-family:outfit, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                vertical-align: top;  
+                margin-left: 10px;
+                margin-top: 2px;
+            }
+            .time-container{
+                display: inline-block;
+                margin-left: 150px;
+                vertical-align: middle;
+                
+            }
+            .price-container{
+                display: inline-block;
+                margin-left: 20px;
+                vertical-align: middle;
+            }
+            hr{
+                width: 350px;
+                margin-top: 30px;          
+            }
+            .profile{
+                padding-bottom: 30px;
+                padding-top: 10px;
+                
+                
+                
+            }
+            .profile-image{
+                width: 50px;
+                border:1px solid white;
+                border-radius: 25px;
+                margin-left: 20px;
+                vertical-align: middle;
+                
+            }
+            .author{
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 20px;
+                font-family: Outfit, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: hsl(215, 51%, 70%);
+                
+            }
+            #author-name{
+                color: rgb(255, 255, 255);
+            }
+           #active{
+               position: absolute;
+               background:rgba(10,100,200,0.3);
+               top: 0;
+               left: 0;
+               bottom: 0;
+               right: 0;
+               opacity: 0;
+           }
+           #active:active{
+               opacity: 1;
+           }
+           .image-container{
+               position: relative;
+           }
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="image-container"><img src="image-equilibrium.jpg" class="product-image">
+            <div id="active"></div>
+            </div>
+            
+            <div class="name">Equilibrium #3429</div>
+            <div><p>Our Equilibrium collection promotes balance and calm.</p></div>   
+     <div>
+        <div class="price-container"><img src="icon-ethereum.svg">
+            <span class="price">0.041 ETH</span></div>
+        <div class="time-container"><img src="icon-clock.svg"><span class="time">3 days left</span> </div>
+     </div>
+        <hr>
+         <div class="profile">
+            <img src="image-avatar.png" class="profile-image"><span class="author">Creation of <span id="author-name">Jules Wyvern</span></span>
+         </div>
+        </div>
+    </body>
+</html>
